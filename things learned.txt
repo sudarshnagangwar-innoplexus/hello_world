@@ -1,0 +1,84 @@
+24/06/2016
+
+to open jupyter in browser 
+jupyter notebook
+
+always be polite when u talk to somebody or write a mail.
+
+1) strip function for strings - 
+The method strip() returns a copy of the string in which all chars have been stripped from the beginning and the end of the string (default whitespace characters).
+
+syntax - str.strip([chars]);
+
+example-
+
+str = "0000000this is string example....wow!!!0000000";
+print str.strip( '0' )
+
+output this is string example....wow!!!
+
+>>>>>>>>a.strip() for a in text1.encode('UTF-8').split('–')
+ek to yahan leading and trailing whute spaces ko remove kr dia using strip
+doosra encode('UTF-8')  ascii code ki range me lane ke lie
+(UTF-16)   sixteen bit me
+
+2) don't use try except unless necesssary
+try to use if else generally
+bcoz try except tabhi use krna chaie jb hme specifically pata ho error ka vrna error handling incorrect ho skti hai
+
+
+3) String Tutorial
+method for spliting and joining strings
+
+key = 'dhruv shah'
+print '+'.join(key.split())
+print '/'.join(['home','sudarshana.gangwar','Desktop'])
+# '<joiner>'.join(<what to join, list of string>)
+
+output 
+dhruv+shah
+home/sudarshana.gangwar/Desktop
+
+A u can see split(), jb kuch input na do to vo apne aap space pe divide krti hai.
+join function appends all the elments by given character
+
+string replace method
+
+key = 'dhruv shah'
+print key.replace(' ','+')
+
+output
+dhruv+shah
+
+replace function replaces one character by othe one
+
+4) url part fragment
+when crawling, agar koi url phle se crawl kie hue page ka frangmented url hai to usko dobar se cral krke kya hi fayda.
+try to use previously cral page
+
+5) whenever compare unicode always write,
+u'-----
+
+6) to remove a node in a tree in beautifulsoup, use extact()
+eg: [i.extract() for i in div.find_all("div", {"class": "fieldgroup"})]
+
+7) change any datatype into a string in python
+myvariable = 4
+mystring = str(myvariable)  # '4'
+also, alternatively try repr:
+mystring = repr(myvariable) # '4'
+This is called "conversion" in python, and is quite common.
+
+8) update query in pymongo
+result = db.restaurants.update_many(
+    {"address.zipcode": "10016", "cuisine": "Other"},
+    {
+        "$set": {"cuisine": "Category To Be Determined"},
+        "$currentDate": {"lastModified": True}
+    }
+)
+
+10) to dump data into a folder
+mongo dump -d dbname
+
+

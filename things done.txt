@@ -1,0 +1,21 @@
+#### JUNE
+15 16 17 - learned about python, mongodb, json
+18 19 (sat sun) - beautifulsoup, and all the core python
+
+20 - Dhruv gave a me a practice task, done that
+21 - read one paper and learned about selenium, and practiced
+22 23 24 - crawled societies
+25 26 (sat sun) - learned scrapy
+
+27 - got one urgent task on conference crwaling, Pratima needed the data. so didn't crawl societies that day and Nabin calle dto search for photos.
+28 - was trying to crawl a site which took 2.5 hrs but couldn't slove the issue. Then Nabin gave me the task of collecting images of 50 links which took me like 1 hr.
+29 - worked on society list
+30 - worked on society list
+
+####JULY
+1 - worked in societies
+4 - worked on societies
+
+
+
+
